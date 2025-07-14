@@ -1,0 +1,8 @@
+name = "bagherlo-v2ray-worker"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "e3f7f6a74f654d3ab93c2c12fd6b1d2a" }
+]
